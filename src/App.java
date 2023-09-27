@@ -23,6 +23,9 @@ public class Contador {
 		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
 		
 		int contagem = parametroDois - parametroUm;
-		//realizar o for para imprimir os números com base na variável contagem
+        
+        for(int numero = 0; numero < contagem; numero++) {
+            System.out.println("Imprimindo o numero " + numero);
+        }
 	}
 }
